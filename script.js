@@ -9,4 +9,5 @@ function draw() {
   noStroke()
   fill(random(colorlist));
   ellipse(mouseX, mouseY, 25, 25);
+  square(32,23,mouseX)
 }
